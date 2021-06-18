@@ -11,8 +11,7 @@ jobs:
       - checkout
       - run:
           name: Greeting
-          command: echo "Hello, world"
+          command: echo Hello, world
       - run:
-          name: Print the Current Time
+          name: Print current time
           command: date
-      
